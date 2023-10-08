@@ -24,7 +24,7 @@
           <el-input placeholder="用户名（peter）" v-model="loginEmpForm.user"></el-input>
         </el-form-item>
         <el-form-item>
-          <el-input placeholder="密码 (123456)" v-model="loginEmpForm.code"></el-input>
+          <el-input type="password" placeholder="密码 (123456)" v-model="loginEmpForm.code"></el-input>
         </el-form-item>
         <el-form-item>
           <el-button style="width: 100%" type="primary" @click="submit">登录</el-button>
